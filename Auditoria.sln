@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{507F95E8-9D85-407B-93ED-8623A9082A24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auditoria.Service", "Auditoria.Service", "{F0C3AFB6-6025-47D5-A0C7-00F3C4FBA5A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auditoria.Domain", "src\Auditoria.Service\Auditoria.Domain\Auditoria.Domain.csproj", "{82AC2339-BD25-48CE-8B10-35A9785B879A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auditoria.Application", "src\Auditoria.Service\Auditoria.Application\Auditoria.Application.csproj", "{671423EE-C638-47C9-9D84-D43C2918A0B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auditoria.Infrastructure", "src\Auditoria.Service\Auditoria.Infrastructure\Auditoria.Infrastructure.csproj", "{0B24D7FB-0E2D-40CF-81CE-9FB2A9F7AAF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auditoria.API", "src\Auditoria.Service\Auditoria.API\Auditoria.API.csproj", "{5F5F1354-8276-4069-9D20-D1E4DCD3686D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auditoria.Tests", "src\Auditoria.Service\Auditoria.Tests\Auditoria.Tests.csproj", "{416541C3-050E-4FE9-B8C1-A55C4446DE42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82AC2339-BD25-48CE-8B10-35A9785B879A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82AC2339-BD25-48CE-8B10-35A9785B879A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82AC2339-BD25-48CE-8B10-35A9785B879A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82AC2339-BD25-48CE-8B10-35A9785B879A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{671423EE-C638-47C9-9D84-D43C2918A0B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{671423EE-C638-47C9-9D84-D43C2918A0B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{671423EE-C638-47C9-9D84-D43C2918A0B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{671423EE-C638-47C9-9D84-D43C2918A0B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B24D7FB-0E2D-40CF-81CE-9FB2A9F7AAF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B24D7FB-0E2D-40CF-81CE-9FB2A9F7AAF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B24D7FB-0E2D-40CF-81CE-9FB2A9F7AAF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B24D7FB-0E2D-40CF-81CE-9FB2A9F7AAF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F5F1354-8276-4069-9D20-D1E4DCD3686D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F5F1354-8276-4069-9D20-D1E4DCD3686D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F5F1354-8276-4069-9D20-D1E4DCD3686D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F5F1354-8276-4069-9D20-D1E4DCD3686D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{416541C3-050E-4FE9-B8C1-A55C4446DE42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{416541C3-050E-4FE9-B8C1-A55C4446DE42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{416541C3-050E-4FE9-B8C1-A55C4446DE42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{416541C3-050E-4FE9-B8C1-A55C4446DE42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F0C3AFB6-6025-47D5-A0C7-00F3C4FBA5A6} = {507F95E8-9D85-407B-93ED-8623A9082A24}
+		{82AC2339-BD25-48CE-8B10-35A9785B879A} = {F0C3AFB6-6025-47D5-A0C7-00F3C4FBA5A6}
+		{671423EE-C638-47C9-9D84-D43C2918A0B2} = {F0C3AFB6-6025-47D5-A0C7-00F3C4FBA5A6}
+		{0B24D7FB-0E2D-40CF-81CE-9FB2A9F7AAF3} = {F0C3AFB6-6025-47D5-A0C7-00F3C4FBA5A6}
+		{5F5F1354-8276-4069-9D20-D1E4DCD3686D} = {F0C3AFB6-6025-47D5-A0C7-00F3C4FBA5A6}
+		{416541C3-050E-4FE9-B8C1-A55C4446DE42} = {F0C3AFB6-6025-47D5-A0C7-00F3C4FBA5A6}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F8268A58-3ED7-4657-AE6A-A5676F716FA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transacao.Service", "Transacao.Service", "{2B36730D-B43F-40C1-BEE4-23B6CE039E96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transacao.Domain", "src\Transacao.Service\Transacao.Domain\Transacao.Domain.csproj", "{39F2D4A6-3EF2-436B-9B9F-C4A06010414C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transacao.Application", "src\Transacao.Service\Transacao.Application\Transacao.Application.csproj", "{D90B56D1-1987-460F-9649-30C74F8EC262}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transacao.Infrastructure", "src\Transacao.Service\Transacao.Infrastructure\Transacao.Infrastructure.csproj", "{C2516AE3-5E67-44E5-AD5C-8B936EACE8E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transacao.API", "src\Transacao.Service\Transacao.API\Transacao.API.csproj", "{7F112B21-2A5E-45BA-9D6B-C30F7004B177}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transacao.Tests", "src\Transacao.Service\Transacao.Tests\Transacao.Tests.csproj", "{D59BDDCF-1801-4C0B-9557-6E3A0B8F4355}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39F2D4A6-3EF2-436B-9B9F-C4A06010414C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39F2D4A6-3EF2-436B-9B9F-C4A06010414C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39F2D4A6-3EF2-436B-9B9F-C4A06010414C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39F2D4A6-3EF2-436B-9B9F-C4A06010414C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D90B56D1-1987-460F-9649-30C74F8EC262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D90B56D1-1987-460F-9649-30C74F8EC262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D90B56D1-1987-460F-9649-30C74F8EC262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D90B56D1-1987-460F-9649-30C74F8EC262}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2516AE3-5E67-44E5-AD5C-8B936EACE8E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2516AE3-5E67-44E5-AD5C-8B936EACE8E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2516AE3-5E67-44E5-AD5C-8B936EACE8E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2516AE3-5E67-44E5-AD5C-8B936EACE8E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F112B21-2A5E-45BA-9D6B-C30F7004B177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F112B21-2A5E-45BA-9D6B-C30F7004B177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F112B21-2A5E-45BA-9D6B-C30F7004B177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F112B21-2A5E-45BA-9D6B-C30F7004B177}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D59BDDCF-1801-4C0B-9557-6E3A0B8F4355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D59BDDCF-1801-4C0B-9557-6E3A0B8F4355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D59BDDCF-1801-4C0B-9557-6E3A0B8F4355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D59BDDCF-1801-4C0B-9557-6E3A0B8F4355}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B36730D-B43F-40C1-BEE4-23B6CE039E96} = {F8268A58-3ED7-4657-AE6A-A5676F716FA2}
+		{39F2D4A6-3EF2-436B-9B9F-C4A06010414C} = {2B36730D-B43F-40C1-BEE4-23B6CE039E96}
+		{D90B56D1-1987-460F-9649-30C74F8EC262} = {2B36730D-B43F-40C1-BEE4-23B6CE039E96}
+		{C2516AE3-5E67-44E5-AD5C-8B936EACE8E9} = {2B36730D-B43F-40C1-BEE4-23B6CE039E96}
+		{7F112B21-2A5E-45BA-9D6B-C30F7004B177} = {2B36730D-B43F-40C1-BEE4-23B6CE039E96}
+		{D59BDDCF-1801-4C0B-9557-6E3A0B8F4355} = {2B36730D-B43F-40C1-BEE4-23B6CE039E96}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,38 @@
+{
+  "folders": [
+    {
+      "name": "📁 Root",
+      "path": "."
+    },
+    {
+      "name": "🔐 Auth.Service",
+      "path": "src/Auth.Service"
+    },
+    {
+      "name": "👤 Cliente.Service",
+      "path": "src/Cliente.Service"
+    },
+    {
+      "name": "🏦 Conta.Service",
+      "path": "src/Conta.Service"
+    },
+    {
+      "name": "💰 Transacao.Service",
+      "path": "src/Transacao.Service"
+    },
+    {
+      "name": "📊 Extrato.Service",
+      "path": "src/Extrato.Service"
+    },
+    {
+      "name": "📝 Auditoria.Service",
+      "path": "src/Auditoria.Service"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/bin": true,
+      "**/obj": true
+    }
+  }
+}

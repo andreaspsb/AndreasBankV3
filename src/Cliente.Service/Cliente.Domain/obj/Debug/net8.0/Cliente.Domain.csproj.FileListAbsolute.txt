@@ -1,0 +1,11 @@
+/home/andreas/repositoriosgit/AndreasBankV2/src/Cliente.Service/Cliente.Domain/obj/Debug/net8.0/Cliente.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/andreas/repositoriosgit/AndreasBankV2/src/Cliente.Service/Cliente.Domain/obj/Debug/net8.0/Cliente.Domain.AssemblyInfoInputs.cache
+/home/andreas/repositoriosgit/AndreasBankV2/src/Cliente.Service/Cliente.Domain/obj/Debug/net8.0/Cliente.Domain.AssemblyInfo.cs
+/home/andreas/repositoriosgit/AndreasBankV2/src/Cliente.Service/Cliente.Domain/obj/Debug/net8.0/Cliente.Domain.csproj.CoreCompileInputs.cache
+/home/andreas/repositoriosgit/AndreasBankV2/src/Cliente.Service/Cliente.Domain/bin/Debug/net8.0/Cliente.Domain.deps.json
+/home/andreas/repositoriosgit/AndreasBankV2/src/Cliente.Service/Cliente.Domain/bin/Debug/net8.0/Cliente.Domain.dll
+/home/andreas/repositoriosgit/AndreasBankV2/src/Cliente.Service/Cliente.Domain/bin/Debug/net8.0/Cliente.Domain.pdb
+/home/andreas/repositoriosgit/AndreasBankV2/src/Cliente.Service/Cliente.Domain/obj/Debug/net8.0/Cliente.Domain.dll
+/home/andreas/repositoriosgit/AndreasBankV2/src/Cliente.Service/Cliente.Domain/obj/Debug/net8.0/refint/Cliente.Domain.dll
+/home/andreas/repositoriosgit/AndreasBankV2/src/Cliente.Service/Cliente.Domain/obj/Debug/net8.0/Cliente.Domain.pdb
+/home/andreas/repositoriosgit/AndreasBankV2/src/Cliente.Service/Cliente.Domain/obj/Debug/net8.0/ref/Cliente.Domain.dll

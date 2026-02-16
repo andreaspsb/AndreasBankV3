@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{972947F0-BC5B-4DEA-BCF1-B0C6AE20FEE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Conta.Service", "Conta.Service", "{6226B006-0480-4F3B-8E16-25A3E8BDBDBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conta.Domain", "src\Conta.Service\Conta.Domain\Conta.Domain.csproj", "{4BFDD0C8-758C-419F-8BBA-55921F9ACBE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conta.Application", "src\Conta.Service\Conta.Application\Conta.Application.csproj", "{092F25D5-BC37-42BC-BBEC-F20E2124325A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conta.Infrastructure", "src\Conta.Service\Conta.Infrastructure\Conta.Infrastructure.csproj", "{526B4FDA-6831-483E-AF31-ECCB18EBD73A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conta.API", "src\Conta.Service\Conta.API\Conta.API.csproj", "{185A71EE-85AD-47D6-9A72-4E6E8E3CC37D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conta.Tests", "src\Conta.Service\Conta.Tests\Conta.Tests.csproj", "{A34EEF80-9095-4791-A88B-C85ABB030308}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BFDD0C8-758C-419F-8BBA-55921F9ACBE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BFDD0C8-758C-419F-8BBA-55921F9ACBE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BFDD0C8-758C-419F-8BBA-55921F9ACBE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BFDD0C8-758C-419F-8BBA-55921F9ACBE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{092F25D5-BC37-42BC-BBEC-F20E2124325A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{092F25D5-BC37-42BC-BBEC-F20E2124325A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{092F25D5-BC37-42BC-BBEC-F20E2124325A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{092F25D5-BC37-42BC-BBEC-F20E2124325A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{526B4FDA-6831-483E-AF31-ECCB18EBD73A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{526B4FDA-6831-483E-AF31-ECCB18EBD73A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{526B4FDA-6831-483E-AF31-ECCB18EBD73A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{526B4FDA-6831-483E-AF31-ECCB18EBD73A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{185A71EE-85AD-47D6-9A72-4E6E8E3CC37D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{185A71EE-85AD-47D6-9A72-4E6E8E3CC37D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{185A71EE-85AD-47D6-9A72-4E6E8E3CC37D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{185A71EE-85AD-47D6-9A72-4E6E8E3CC37D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A34EEF80-9095-4791-A88B-C85ABB030308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A34EEF80-9095-4791-A88B-C85ABB030308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A34EEF80-9095-4791-A88B-C85ABB030308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A34EEF80-9095-4791-A88B-C85ABB030308}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6226B006-0480-4F3B-8E16-25A3E8BDBDBA} = {972947F0-BC5B-4DEA-BCF1-B0C6AE20FEE8}
+		{4BFDD0C8-758C-419F-8BBA-55921F9ACBE8} = {6226B006-0480-4F3B-8E16-25A3E8BDBDBA}
+		{092F25D5-BC37-42BC-BBEC-F20E2124325A} = {6226B006-0480-4F3B-8E16-25A3E8BDBDBA}
+		{526B4FDA-6831-483E-AF31-ECCB18EBD73A} = {6226B006-0480-4F3B-8E16-25A3E8BDBDBA}
+		{185A71EE-85AD-47D6-9A72-4E6E8E3CC37D} = {6226B006-0480-4F3B-8E16-25A3E8BDBDBA}
+		{A34EEF80-9095-4791-A88B-C85ABB030308} = {6226B006-0480-4F3B-8E16-25A3E8BDBDBA}
+	EndGlobalSection
+EndGlobal

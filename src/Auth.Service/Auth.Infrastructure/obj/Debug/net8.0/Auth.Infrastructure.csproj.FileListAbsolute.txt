@@ -1,0 +1,15 @@
+/home/andreas/repositoriosgit/AndreasBankV2/src/Auth.Service/Auth.Infrastructure/bin/Debug/net8.0/Auth.Infrastructure.deps.json
+/home/andreas/repositoriosgit/AndreasBankV2/src/Auth.Service/Auth.Infrastructure/bin/Debug/net8.0/Auth.Infrastructure.dll
+/home/andreas/repositoriosgit/AndreasBankV2/src/Auth.Service/Auth.Infrastructure/bin/Debug/net8.0/Auth.Infrastructure.pdb
+/home/andreas/repositoriosgit/AndreasBankV2/src/Auth.Service/Auth.Infrastructure/bin/Debug/net8.0/Auth.Domain.dll
+/home/andreas/repositoriosgit/AndreasBankV2/src/Auth.Service/Auth.Infrastructure/bin/Debug/net8.0/Auth.Domain.pdb
+/home/andreas/repositoriosgit/AndreasBankV2/src/Auth.Service/Auth.Infrastructure/obj/Debug/net8.0/Auth.Infrastructure.csproj.AssemblyReference.cache
+/home/andreas/repositoriosgit/AndreasBankV2/src/Auth.Service/Auth.Infrastructure/obj/Debug/net8.0/Auth.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/andreas/repositoriosgit/AndreasBankV2/src/Auth.Service/Auth.Infrastructure/obj/Debug/net8.0/Auth.Infrastructure.AssemblyInfoInputs.cache
+/home/andreas/repositoriosgit/AndreasBankV2/src/Auth.Service/Auth.Infrastructure/obj/Debug/net8.0/Auth.Infrastructure.AssemblyInfo.cs
+/home/andreas/repositoriosgit/AndreasBankV2/src/Auth.Service/Auth.Infrastructure/obj/Debug/net8.0/Auth.Infrastructure.csproj.CoreCompileInputs.cache
+/home/andreas/repositoriosgit/AndreasBankV2/src/Auth.Service/Auth.Infrastructure/obj/Debug/net8.0/Auth.Inf.EC29ECAC.Up2Date
+/home/andreas/repositoriosgit/AndreasBankV2/src/Auth.Service/Auth.Infrastructure/obj/Debug/net8.0/Auth.Infrastructure.dll
+/home/andreas/repositoriosgit/AndreasBankV2/src/Auth.Service/Auth.Infrastructure/obj/Debug/net8.0/refint/Auth.Infrastructure.dll
+/home/andreas/repositoriosgit/AndreasBankV2/src/Auth.Service/Auth.Infrastructure/obj/Debug/net8.0/Auth.Infrastructure.pdb
+/home/andreas/repositoriosgit/AndreasBankV2/src/Auth.Service/Auth.Infrastructure/obj/Debug/net8.0/ref/Auth.Infrastructure.dll
