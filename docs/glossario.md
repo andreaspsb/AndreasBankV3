@@ -1,4 +1,4 @@
-# Glossário - AndreasBankV2
+# Glossário - AndreasBankV3
 
 ## Índice
 
@@ -16,7 +16,7 @@
 ## Termos Bancários
 
 ### Agência
-Número identificador da unidade ou ponto de atendimento do banco. No AndreasBankV2, cada cliente é associado a uma agência ao abrir uma conta. Formato típico: 4 dígitos (exemplo: 0001).
+Número identificador da unidade ou ponto de atendimento do banco. No AndreasBankV3, cada cliente é associado a uma agência ao abrir uma conta. Formato típico: 4 dígitos (exemplo: 0001).
 
 ### Cheque Especial
 Limite de crédito pré-aprovado disponível em conta corrente, permitindo que o cliente utilize valores além do saldo disponível. Taxa de juros aplicada sobre o valor utilizado.
@@ -89,7 +89,7 @@ Operação de retirada de dinheiro de uma conta bancária. Limites:
 
 ### Transferência
 Operação de movimentação de valores entre contas. Tipos:
-- **Transferência Interna**: Entre contas do AndreasBankV2
+- **Transferência Interna**: Entre contas do AndreasBankV3
 - **TED**: Transferência Eletrônica Disponível para outros bancos
 - **DOC**: Documento de Ordem de Crédito para outros bancos
 
@@ -140,7 +140,7 @@ Lei brasileira que regula o tratamento de dados pessoais, garantindo direitos co
 Controle de acesso baseado em papéis/perfis de usuário.
 
 ### Sessão
-Período de tempo em que um usuário está autenticado no sistema. No AndreasBankV2, sessões expiram após 15 minutos de inatividade.
+Período de tempo em que um usuário está autenticado no sistema. No AndreasBankV3, sessões expiram após 15 minutos de inatividade.
 
 ### Token
 Código único e temporário gerado para autenticação ou autorização de operações específicas.
@@ -270,7 +270,7 @@ Responsável técnico pela gestão e configuração do sistema. Permissões:
 
 ### Política de Senhas
 
-Requisitos obrigatórios para senhas no AndreasBankV2:
+Requisitos obrigatórios para senhas no AndreasBankV3:
 - **Comprimento mínimo**: 8 caracteres
 - **Composição**: Letras maiúsculas, minúsculas e números
 - **Restrições**: Não pode conter sequências óbvias (123456, abcdef)

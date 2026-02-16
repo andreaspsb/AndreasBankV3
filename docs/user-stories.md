@@ -1,4 +1,4 @@
-# User Stories - AndreasBankV2
+# User Stories - AndreasBankV3
 
 ## Índice
 
@@ -21,7 +21,7 @@
 ### US01 - Cadastro de Novo Cliente
 
 **Como** uma pessoa física  
-**Eu quero** me cadastrar no AndreasBankV2  
+**Eu quero** me cadastrar no AndreasBankV3  
 **Para** poder utilizar os serviços bancários
 
 **Requisitos relacionados**: RF01, RF02  
@@ -330,7 +330,7 @@
 ### US12 - Realizar Transferência Entre Contas Internas
 
 **Como** um cliente  
-**Eu quero** transferir dinheiro para outra conta do AndreasBankV2  
+**Eu quero** transferir dinheiro para outra conta do AndreasBankV3  
 **Para** enviar dinheiro para terceiros sem taxa
 
 **Requisitos relacionados**: RF17, RF20, RF21  

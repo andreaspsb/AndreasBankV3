@@ -1,4 +1,4 @@
-# AndreasBankV2 🏦
+# AndreasBankV3 🏦
 
 [![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)]()
 [![Tipo](https://img.shields.io/badge/tipo-projeto%20acad%C3%AAmico-blue)]()
@@ -6,7 +6,7 @@
 
 ## 📋 Sobre o Projeto
 
-O **AndreasBankV2** é um projeto acadêmico que modela um sistema bancário digital fictício voltado para pessoas físicas. Este repositório contém a documentação completa de requisitos, user stories e cenários de testes em formato BDD (Behavior-Driven Development).
+O **AndreasBankV3** é um projeto acadêmico que modela um sistema bancário digital fictício voltado para pessoas físicas. Este repositório contém a documentação completa de requisitos, user stories e cenários de testes em formato BDD (Behavior-Driven Development).
 
 ## 🎯 Objetivos
 
@@ -18,7 +18,7 @@ O **AndreasBankV2** é um projeto acadêmico que modela um sistema bancário dig
 
 ## 🏗️ Escopo do Sistema
 
-O AndreasBankV2 cobre as seguintes funcionalidades principais:
+O AndreasBankV3 cobre as seguintes funcionalidades principais:
 
 - **Gestão de Clientes**: Cadastro, atualização e consulta de dados de clientes pessoas físicas
 - **Gestão de Contas**: Abertura, consulta e encerramento de contas correntes e poupança
@@ -29,7 +29,7 @@ O AndreasBankV2 cobre as seguintes funcionalidades principais:
 ## 📚 Estrutura da Documentação
 
 ```
-AndreasBankV2/
+AndreasBankV3/
 ├── README.md                    # Este arquivo
 └── docs/
     ├── requisitos.md            # Requisitos funcionais, não-funcionais e regras de negócio
@@ -103,7 +103,7 @@ Este é um projeto acadêmico para fins educacionais.
 
 ## ✨ Autor
 
-**Andreas** - Projeto Acadêmico AndreasBankV2
+**Andreas** - Projeto Acadêmico AndreasBankV3
 
 ---
 

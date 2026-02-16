@@ -1,4 +1,4 @@
-# Cenários BDD - AndreasBankV2
+# Cenários BDD - AndreasBankV3
 
 ## Índice
 
@@ -14,7 +14,7 @@
 
 ## Sobre este Documento
 
-Este documento contém cenários de teste escritos em **Gherkin** (formato BDD - Behavior-Driven Development) em **português brasileiro**. Os cenários descrevem o comportamento esperado do sistema AndreasBankV2 e podem ser automatizados usando frameworks como Cucumber, Behave ou SpecFlow.
+Este documento contém cenários de teste escritos em **Gherkin** (formato BDD - Behavior-Driven Development) em **português brasileiro**. Os cenários descrevem o comportamento esperado do sistema AndreasBankV3 e podem ser automatizados usando frameworks como Cucumber, Behave ou SpecFlow.
 
 **Sintaxe Utilizada:**
 - `Funcionalidade`: Descrição da funcionalidade sendo testada
@@ -37,7 +37,7 @@ Este documento contém cenários de teste escritos em **Gherkin** (formato BDD -
 
 #### Contexto:
 ```gherkin
-Dado que o sistema AndreasBankV2 está disponível
+Dado que o sistema AndreasBankV3 está disponível
 E que a página de cadastro está acessível
 ```
 
@@ -506,7 +506,7 @@ E possuo uma conta corrente com saldo de R$ 1.000,00
 ```gherkin
 Cenário: Transferência interna bem-sucedida
   Quando acesso a opção "Transferir"
-  E seleciono "Para conta do AndreasBankV2"
+  E seleciono "Para conta do AndreasBankV3"
   E informo os dados da conta destino:
     | Agência | 0001      |
     | Conta   | 54321-9   |

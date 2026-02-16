@@ -1,6 +1,6 @@
 # 🔍 Análise Completa da Documentação - Estrutura de Serviços
 
-Após revisão detalhada dos documentos, aqui está a **arquitetura de microserviços recomendada** para o AndreasBankV2:
+Após revisão detalhada dos documentos, aqui está a **arquitetura de microserviços recomendada** para o AndreasBankV3:
 
 ---
 
@@ -233,7 +233,7 @@ Após revisão detalhada dos documentos, aqui está a **arquitetura de microserv
 
 **Estrutura final dos repositórios**:
 ```
-AndreasBankV2/
+AndreasBankV3/
 ├── Auth.sln             → Auth.Service
 ├── Cliente.sln          → Cliente.Service
 ├── Conta.sln            → Conta.Service

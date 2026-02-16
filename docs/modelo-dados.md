@@ -1,4 +1,4 @@
-# Modelo de Dados - AndreasBankV2
+# Modelo de Dados - AndreasBankV3
 
 ## Índice
 
@@ -13,7 +13,7 @@
 
 ## 1. Visão Geral
 
-Este documento apresenta o **modelo conceitual de dados** do sistema AndreasBankV2. O modelo é agnóstico de tecnologia e pode ser implementado em diferentes SGBDs (MySQL, PostgreSQL, SQL Server, MongoDB, etc.).
+Este documento apresenta o **modelo conceitual de dados** do sistema AndreasBankV3. O modelo é agnóstico de tecnologia e pode ser implementado em diferentes SGBDs (MySQL, PostgreSQL, SQL Server, MongoDB, etc.).
 
 ### Princípios de Modelagem
 
@@ -279,7 +279,7 @@ Registra todas as movimentações financeiras realizadas nas contas.
    - taxa = 0.00
 
 3. **Transferência**
-   - id_conta_origem e id_conta_destino preenchidos (ambas do AndreasBankV2)
+   - id_conta_origem e id_conta_destino preenchidos (ambas do AndreasBankV3)
    - taxa = 0.00
 
 4. **TED**

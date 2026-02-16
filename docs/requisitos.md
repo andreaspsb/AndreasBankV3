@@ -1,4 +1,4 @@
-# Requisitos do Sistema - AndreasBankV2
+# Requisitos do Sistema - AndreasBankV3
 
 ## Índice
 
@@ -143,7 +143,7 @@
 ### 1.5 Transferências
 
 **RF17 - Transferir Entre Contas do Mesmo Banco**
-- O sistema deve permitir transferências entre contas do AndreasBankV2
+- O sistema deve permitir transferências entre contas do AndreasBankV3
 - Transferência deve ser instantânea e sem taxa
 - Campos obrigatórios: conta origem, conta destino, valor
 - **Prioridade**: Alta
@@ -416,7 +416,7 @@
 - Conta com saldo zerado por mais de 90 dias pode ser encerrada automaticamente
 
 **RN02 - Tarifas de Transferência**
-- Transferência entre contas do AndreasBankV2: gratuita
+- Transferência entre contas do AndreasBankV3: gratuita
 - TED: R$ 8,50 por transferência
 - DOC: R$ 5,00 por transferência
 - Tarifas são debitadas da conta origem no momento da transferência
