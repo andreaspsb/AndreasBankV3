@@ -1,8 +1,8 @@
-using Cliente.Domain.ValueObjects;
+using Clientes.Domain.ValueObjects;
 using FluentAssertions;
 using Xunit;
 
-namespace Cliente.Tests.Domain.ValueObjects;
+namespace Clientes.Tests.Domain.ValueObjects;
 
 public class CpfTests
 {

@@ -1,9 +1,9 @@
-using Cliente.Domain.Entities;
-using Cliente.Domain.ValueObjects;
+using Clientes.Domain.Entities;
+using Clientes.Domain.ValueObjects;
 using FluentAssertions;
 using Xunit;
 
-namespace Cliente.Tests.Domain.Entities
+namespace Clientes.Tests.Domain.Entities
 {
     public class ClienteTests
     {
@@ -14,11 +14,11 @@ namespace Cliente.Tests.Domain.Entities
             var cpf = new Cpf("12345678909");
             var nomeCompleto = "João da Silva Santos";
             var dataNascimento = new DateTime(1990, 3, 15);
-            var email = "joao.silva@email.com";
+            var email = new Email("joao.silva@email.com");
             var telefone = "11987654321";
 
             // Act
-            var cliente = new Cliente.Domain.Entities.Cliente(
+            var cliente = new Cliente(
                 cpf: cpf,
                 nomeCompleto: nomeCompleto,
                 dataNascimento: dataNascimento,
@@ -44,11 +44,11 @@ namespace Cliente.Tests.Domain.Entities
             var cpf = new Cpf("12345678909");
             var nomeCompleto = "Menor de Idade";
             var dataNascimento = DateTime.Now.AddYears(-15); // Menor de 16 anos
-            var email = "menor@email.com";
+            var email = new Email("menor@email.com");
             var telefone = "11987654321";
 
             // Act
-            Action act = () => new Cliente.Domain.Entities.Cliente(
+            Action act = () => new Cliente(
                 cpf: cpf,
                 nomeCompleto: nomeCompleto,
                 dataNascimento: dataNascimento,

@@ -1,4 +1,4 @@
-namespace Cliente.Domain.ValueObjects;
+namespace Clientes.Domain.ValueObjects;
 
 /// <summary>
 ///  Value Object para representar o CPF (Cadastro de Pessoas Físicas) no domínio de autenticação.

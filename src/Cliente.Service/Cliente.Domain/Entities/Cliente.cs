@@ -1,11 +1,11 @@
-using Cliente.Domain.ValueObjects;
+using Clientes.Domain.ValueObjects;
 
-namespace Cliente.Domain.Entities
+namespace Clientes.Domain.Entities
 {
     public class Cliente
     {
 
-        public Cliente(Cpf cpf, string nomeCompleto, DateTime dataNascimento, string email, string telefone)
+        public Cliente(Cpf cpf, string nomeCompleto, DateTime dataNascimento, Email email, string telefone)
         {
             // Validação de idade mínima (RN11)
             var idade = CalcularIdade(dataNascimento);
@@ -33,7 +33,7 @@ namespace Cliente.Domain.Entities
         public Cpf Cpf { get; private set; }
         public string NomeCompleto { get; private set; }
         public DateTime DataNascimento { get; private set; }
-        public string Email { get; private set; }
+        public Email Email { get; private set; }
         public string Telefone { get; private set; }
         public string Status { get; private set; }
         public DateTime DataCadastro { get; private set; }
